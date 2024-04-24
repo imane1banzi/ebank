@@ -1,0 +1,110 @@
+
+  <div class="container-xl">
+    <h3> <span class="badge bg-secondary">Liste clients</span></h3>
+    <div class="table-responsive-xxl">
+      <table class="table">
+        <thead class="table-dark">
+          <tr   >
+            <th >{{userIdFieldTitle}}</th>
+            <th>{{nomFieldTitle}}</th>
+            <th >{{prenomFieldTitle}}</th>
+            <th >{{loginFieldTitle}}</th>
+            <th >{{passwordFieldTitle}}</th>
+            <th >{{dateAnniversaireFieldTitle}}</th>
+            <th >{{adresseMmailFieldTitle}}</th>
+            <th >{{adressePostaleFieldTitle}}</th>
+            <th >{{numeroIdentiteFieldTitle}}</th>
+
+
+
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let client  of listeClients">
+            <td >{{client.id}}</td>
+            <td>{{client.nomClient}}</td>
+            <td>{{client.prenomClient}}</td>
+            <td>{{client.loginClient}}</td>
+            <td>{{client.passwordClient}}</td>
+            <td>{{client.dateAnniversaireClient}}</td>
+            <td>{{client.adresseMmailClient}}</td>
+            <td>{{client.adressePostaleClient}}</td>
+            <td>{{client.numeroIdentiteClient}}</td>
+
+          </tr>
+        </tbody>
+      </table>
+  </div>
+  <div class="card"  style="width: 90%;" style="padding: 2%;">
+    <div class="card-header">
+      Nouveau client
+    </div>
+    <div class="card-body">
+      <h5 class="card-title">Informations</h5>
+      <p class="card-text">Prie de remplire le formulaire clients</p>
+
+      <form class="row g-3" [formGroup]="clientFormGroup" (ngSubmit)="creerNouveauClient(clientFormGroup)" >
+        <div>
+          Informations<h5>{{clientFormGroup.value | json}}</h5>
+        </div>
+        <div class="col-md-3">
+            <label for="inputClientId" class="form-label">{{userIdFieldTitle}}</label>
+            <input type="text" class="form-control" id="inputClientId" formControlName="userIdClient">
+          </div>
+          <div class="col-md-3">
+            <label for="inputNom" class="form-label">{{nomFieldTitle}}</label>
+            <input type="text" class="form-control" id="inputNom" formControlName="nomClient">
+          </div>
+          <div class="col-md-3">
+            <label for="inputPrenom" class="form-label">{{prenomFieldTitle}}</label>
+            <input type="text" class="form-control" id="inputPrenom" formControlName="prenomClient">
+          </div>
+
+          <div class="col-md-3">
+            <label for="inputDateAnniversaire" class="form-label">{{dateAnniversaireFieldTitle }}</label>
+            <input type="date" class="form-control" id="inputDateAnniversaire"
+             formControlName="dateAnniversaireClient">
+          </div>
+          <div class="col-md-3">
+            <label for="inputAdresseMail" class="form-label">{{adresseMmailFieldTitle }}</label>
+            <input type="email" class="form-control" id="inputAdresseMail"
+            formControlName="adresseMmailClient">
+          </div>
+          <div class="col-md-3">
+            <label for="inputAdressePostale" class="form-label">{{ adressePostaleFieldTitle}}</label>
+            <input type="text" class="form-control" id="inputAdressePostale"
+            formControlName="adressePostaleClient">
+          </div>
+
+        <div class="col-md-3">
+          <label for="inputNumeroIdentite" class="form-label">{{numeroIdentiteFieldTitle }}</label>
+          <input type="text" class="form-control" id="inputNumeroIdentite"
+           formControlName="numeroIdentiteClient">
+        </div>
+        <div class="col-md-3">
+          <label for="inputLogin" class="form-label">{{ loginFieldTitle}}</label>
+          <input type="text" class="form-control" id="inputLogin" formControlName="loginClient">
+        </div>
+        <div class="col-md-3">
+          <label for="inputPassword" class="form-label">{{passwordFieldTitle }}</label>
+          <input type="password" class="form-control" id="inputPassword" formControlName="passwordClient">
+        </div>
+
+        <div class="col-md-3">
+          <label for="inputProfiles" class="form-label">{{listProfiles.listProfilesFieldTitle}}</label>
+          <select id="inputProfiles" class="form-select"
+          formControlName="profileClient">profileClient
+            <option selected>Choose...</option>
+            <option>ADMIN</option>
+            <option>CLIENT</option>
+            <option>AGENT GUICHET</option>
+          </select>
+        </div>
+        <div class="col-12">
+          <button type="submit" class="btn btn-primary">Créer client</button>
+        </div>
+
+      </form>
+    </div>
+  </div>
+  </div>

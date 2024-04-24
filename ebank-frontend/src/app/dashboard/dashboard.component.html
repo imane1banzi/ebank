@@ -1,0 +1,101 @@
+<table xmlns:vertical-align="http://www.w3.org/1999/xhtml">
+
+  <tr>
+    <td style="vertical-align: text-top" >
+      <h3> <span class="badge bg-secondary">Dashboard</span></h3>
+    </td>
+    <td>
+
+
+    </td>
+    <td>
+
+<div class="table-responsive-xxl">
+  <table class="table">
+    <thead class="table-dark">
+    <tr   >
+      <th >{{listOperations.operationIDFieldTitle}}</th>
+      <th>{{listOperations.typeoperationFieldTitle}}</th>
+      <th >{{listOperations.montantFieldTitle}}</th>
+      <th >{{listOperations.daterealisationFieldTitle}}</th>
+      <th >{{listOperations.motifFieldTitle}}</th>
+      <th >{{listOperations.userIdFieldTitle}}</th>
+
+
+
+    </tr>
+    </thead>
+    <tbody>
+    <tr *ngFor="let operation  of listOperations">
+      <td >{{operation.operationIDFieldValue}}</td>
+      <td>{{operation.typeoperationFieldValue}}</td>
+      <td>{{operation.montantFieldValue}}</td>
+      <td>{{operation.daterealisationFieldValue}}</td>
+      <td>{{operation.motifFieldValue}}</td>
+      <td>{{operation.userIDFieldValue}}</td>
+
+    </tr>
+    </tbody>
+  </table>
+</div>
+      <div class="container-xl">
+
+
+        <div class="col-md-3">
+          <label for="inputRIB" class="form-label">{{listComptes.ribFieldTitle}}</label>
+          <input type="text" class="form-control" id="inputRIB" >
+        </div>
+        <div class="col-md-3">
+          <label for="inputsolde" class="form-label">{{listComptes.soldeFieldTitle}}</label>
+          <input type="text" class="form-control" id="inputsolde" >
+        </div>
+      </div>
+<div class="col-md-3">
+  <tbody>
+  <label for="inputcomptes" class="form-label">{{listComptes.listComptesFieldTitle}}</label>
+  <select id="inputcomptes" class="form-select" >Liste compte
+    <option>.....</option>
+    <option *ngFor="let compte  of options" value="{{compte.ribFieldValue}}">{{compte.ribFieldValue}}</option>
+  </select>
+  </tbody>
+</div>
+<div class="card"  style="width: 90%;" style="padding: 2%;">
+  <div class="card-header">
+    Nouveau Virement
+  </div>
+  <div class="card-body">
+    <h5 class="card-title">Informations</h5>
+    <p class="card-text">Priere de remplire le formulaire virement</p>
+
+    <form class="row g-3">
+      <div class="col-md-3">
+        <label for="inputCompteId" class="form-label">{{listComptes.compteIDFieldTitle}}</label>
+        <input type="text" class="form-control" id="inputCompteId">
+      </div>
+      <div class="col-md-3">
+        <label for="inputSold" class="form-label">{{listComptes.soldeFieldTitle}}</label>
+        <input type="text" class="form-control" id="inputSold">
+      </div>
+      <div class="col-md-3">
+        <label for="inputRI" class="form-label">{{listComptes.ribFieldTitle}}</label>
+        <input type="text" class="form-control" id="inputRI">
+      </div>
+      <div class="col-md-3">
+        <label for="inputUserId" class="form-label">{{listComptes.userIdFieldTitle}}</label>
+        <input type="text" class="form-control" id="inputUserId">
+      </div>
+      <div class="col-md-3">
+        <label for="inputStatus" class="form-label">{{listComptes.statusFieldTitle }}</label>
+        <input type="password" class="form-control" id="inputStatus">
+      </div>
+
+
+      <div class="col-12">
+        <button type="submit" class="btn btn-primary">Créer virement</button>
+      </div>
+    </form>
+  </div>
+</div>
+    </td>
+  </tr>
+</table>

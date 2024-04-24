@@ -1,0 +1,219 @@
+{
+  "clients": [
+    {
+      "id": "16ed",
+      "userIdClient": "1",
+      "nomClient": "ITI",
+      "prenomClient": "Mohmed",
+      "loginClient": "admin@example.com",
+      "passwordClient": "dfdfdf",
+      "profileClient": "AGENT GUICHET",
+      "dateAnniversaireClient": "2024-04-23",
+      "adresseMmailClient": "mohamed.iti@outlook.com",
+      "adressePostaleClient": "Hay elmassira 3 Av E Numero 138",
+      "numeroIdentiteClient": "15454544"
+    },
+    {
+      "id": "b019",
+      "userIdClient": "2",
+      "nomClient": "Banzi",
+      "prenomClient": "Imane",
+      "loginClient": "i.benzi",
+      "passwordClient": "dfdfdf",
+      "profileClient": "CLIENT",
+      "dateAnniversaireClient": "2024-04-26",
+      "adresseMmailClient": "imane.banzi@gmail.com",
+      "adressePostaleClient": "200000",
+      "numeroIdentiteClient": "1990"
+    },
+    {
+      "id": "7027",
+      "userIdClient": "user id client",
+      "nomClient": "",
+      "prenomClient": "",
+      "loginClient": "",
+      "passwordClient": "dfdfdf",
+      "profileClient": "",
+      "dateAnniversaireClient": "",
+      "adresseMmailClient": "",
+      "adressePostaleClient": "",
+      "numeroIdentiteClient": ""
+    },
+    {
+      "id": "7038",
+      "userIdClient": "user id client",
+      "nomClient": "ITI",
+      "prenomClient": "Mohmed",
+      "loginClient": "",
+      "passwordClient": "dfdfdf",
+      "profileClient": "",
+      "dateAnniversaireClient": "",
+      "adresseMmailClient": "mohamediti04@gmail.com",
+      "adressePostaleClient": "Str12520",
+      "numeroIdentiteClient": ""
+    },
+    {
+      "id": "1a63",
+      "userIdClient": "user id client",
+      "nomClient": "Mohamed",
+      "prenomClient": "",
+      "loginClient": "",
+      "passwordClient": "dfdfdf",
+      "profileClient": "",
+      "dateAnniversaireClient": "",
+      "adresseMmailClient": "",
+      "adressePostaleClient": "",
+      "numeroIdentiteClient": ""
+    },
+    {
+      "id": "a4bb",
+      "userIdClient": "user id client",
+      "nomClient": "",
+      "prenomClient": "",
+      "loginClient": "",
+      "passwordClient": "dfdfdf",
+      "profileClient": "",
+      "dateAnniversaireClient": "",
+      "adresseMmailClient": "",
+      "adressePostaleClient": "",
+      "numeroIdentiteClient": ""
+    },
+    {
+      "id": "9f29",
+      "userIdClient": "user id client",
+      "nomClient": "",
+      "prenomClient": "",
+      "loginClient": "",
+      "passwordClient": "dfdfdf",
+      "profileClient": "",
+      "dateAnniversaireClient": "",
+      "adresseMmailClient": "",
+      "adressePostaleClient": "",
+      "numeroIdentiteClient": ""
+    },
+    {
+      "id": "6da5",
+      "userIdClient": "user id client",
+      "nomClient": "ITI",
+      "prenomClient": "Mohmed",
+      "loginClient": "",
+      "passwordClient": "dfdfdf",
+      "profileClient": "",
+      "dateAnniversaireClient": "",
+      "adresseMmailClient": "mohamediti04@gmail.com",
+      "adressePostaleClient": "Str12520",
+      "numeroIdentiteClient": ""
+    },
+    {
+      "id": "5d19",
+      "userIdClient": "user id client",
+      "nomClient": "ITI",
+      "prenomClient": "Mohmed",
+      "loginClient": "",
+      "passwordClient": "dfdfdf",
+      "profileClient": "",
+      "dateAnniversaireClient": "",
+      "adresseMmailClient": "mohamed.iti@outlook.com",
+      "adressePostaleClient": "Hay elmassira 3 Av E Numero 138",
+      "numeroIdentiteClient": ""
+    },
+    {
+      "id": "645a",
+      "userIdClient": "user id client",
+      "nomClient": "",
+      "prenomClient": "",
+      "loginClient": "",
+      "passwordClient": "dfdfdf",
+      "profileClient": "",
+      "dateAnniversaireClient": "",
+      "adresseMmailClient": "",
+      "adressePostaleClient": "",
+      "numeroIdentiteClient": ""
+    },
+    {
+      "id": "5f88",
+      "userIdClient": "user id client",
+      "nomClient": "Douaaa",
+      "prenomClient": "",
+      "loginClient": "",
+      "passwordClient": "dfdfdf",
+      "profileClient": "",
+      "dateAnniversaireClient": "",
+      "adresseMmailClient": "",
+      "adressePostaleClient": "",
+      "numeroIdentiteClient": ""
+    },
+    {
+      "id": "379b",
+      "userIdClient": "user id client",
+      "nomClient": "Fadwa",
+      "prenomClient": "",
+      "loginClient": "",
+      "passwordClient": "dfdfdf",
+      "profileClient": "",
+      "dateAnniversaireClient": "",
+      "adresseMmailClient": "",
+      "adressePostaleClient": "",
+      "numeroIdentiteClient": ""
+    },
+    {
+      "id": "c8a6",
+      "userIdClient": "user id client",
+      "nomClient": "ITI",
+      "prenomClient": "Mohmed",
+      "loginClient": "",
+      "passwordClient": "dfdfdf",
+      "profileClient": "",
+      "dateAnniversaireClient": "",
+      "adresseMmailClient": "mohamed.iti@outlook.com",
+      "adressePostaleClient": "Hay elmassira 3 Av E Numero 138",
+      "numeroIdentiteClient": ""
+    },
+    {
+      "id": "340d",
+      "userIdClient": "user id client",
+      "nomClient": "",
+      "prenomClient": "",
+      "loginClient": "",
+      "passwordClient": "dfdfdf",
+      "profileClient": "",
+      "dateAnniversaireClient": "",
+      "adresseMmailClient": "",
+      "adressePostaleClient": "",
+      "numeroIdentiteClient": ""
+    },
+    {
+      "id": "11f5",
+      "userIdClient": "user id client",
+      "nomClient": "ITI",
+      "prenomClient": "Mohamed",
+      "loginClient": "sdsds",
+      "passwordClient": "dfdfdf",
+      "profileClient": "CLIENT",
+      "dateAnniversaireClient": "",
+      "adresseMmailClient": "mohamediti04@gmail.com",
+      "adressePostaleClient": "حي المسيرة 3 شارع اوه رقم 138 البيضاء",
+      "numeroIdentiteClient": "15454544"
+    }
+  ],
+  "comptes": [
+    {
+      "compteIDFieldValue": "Compte ID",
+      "soldeFieldValue": "Solde",
+      "ribFieldValue": "RIB1",
+      "userIdFieldValue": "User ID",
+      "statusFieldValue": "Status",
+      "id": "0c81"
+    }
+  ],
+  "operations": [
+    {
+      "operationIDFieldValue": "operation ID",
+      "typeoperationFieldValue": "type",
+      "montantFieldValue": "Montant",
+      "daterealisationFieldValue": "date",
+      "motifFieldValue": "motif",
+      "userFieldValue": "user ID"
+    }
+  ]
+}

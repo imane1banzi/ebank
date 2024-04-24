@@ -1,0 +1,73 @@
+
+<div class="container-xl">
+  <h3> <span class="badge bg-secondary">{{operationFieldsTitles.listOperationsFieldTitle}}</span></h3>
+  <div class="table-responsive-xxl">
+    <table class="table">
+      <thead class="table-dark">
+      <tr   >
+        <th >{{operationFieldsTitles.operationIDFieldTitle}}</th>
+        <th>{{operationFieldsTitles.typeoperationFieldTitle}}</th>
+        <th >{{operationFieldsTitles.montantFieldTitle}}</th>
+        <th >{{operationFieldsTitles.daterealisationFieldTitle}}</th>
+        <th >{{operationFieldsTitles.motifFieldTitle}}</th>
+        <th >{{operationFieldsTitles.userIdFieldTitle}}</th>
+
+
+
+      </tr>
+      </thead>
+      <tbody>
+      <tr *ngFor="let operation  of listeOperations">
+        <td >{{operation.operationIDFieldValue}}</td>
+        <td>{{operation.typeoperationFieldValue}}</td>
+        <td>{{operation.montantFieldValue}}</td>
+        <td>{{operation.daterealisationFieldValue}}</td>
+        <td>{{operation.motifFieldValue}}</td>
+        <td>{{operation.userIDFieldValue}}</td>
+
+      </tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="card"  style="width: 90%;" style="padding: 2%;">
+    <div class="card-header">
+      Nouvelle operation
+    </div>
+    <div class="card-body">
+      <h5 class="card-title">Informations</h5>
+      <p class="card-text">Priere de remplir le formulaire operation</p>
+
+      <form class="row g-3">
+        <div class="col-md-3">
+          <label for="inputoperationID" class="form-label">{{operationFieldsTitles.operationIDFieldTitle}}</label>
+          <input type="text" class="form-control" id="inputoperationID">
+        </div>
+        <div class="col-md-3">
+          <label for="inputtype" class="form-label">{{operationFieldsTitles.typeoperationFieldTitle}}</label>
+          <input type="password" class="form-control" id="inputtype">
+        </div>
+        <div class="col-md-3">
+          <label for="inputmontant" class="form-label">{{operationFieldsTitles.montantFieldTitle}}</label>
+          <input type="text" class="form-control" id="inputmontant">
+        </div>
+        <div class="col-md-3">
+          <label for="inputdate" class="form-label">{{operationFieldsTitles.daterealisationFieldTitle}}</label>
+          <input type="text" class="form-control" id="inputdate">
+        </div>
+        <div class="col-md-3">
+          <label for="inputmotif" class="form-label">{{operationFieldsTitles.motifFieldTitle }}</label>
+          <input type="text" class="form-control" id="inputmotif">
+        </div>
+        <div class="col-md-3">
+          <label for="inputUserId" class="form-label">{{operationFieldsTitles.userIdFieldTitle}}</label>
+          <input type="text" class="form-control" id="inputUserId">
+        </div>
+
+        <div class="col-12">
+          <button type="submit" class="btn btn-primary">Créer operation</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+
